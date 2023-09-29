@@ -1,6 +1,6 @@
 # Weather Web App
 
-![Weather Web App Screenshot](<img src="Weather App.gif" alt="Computer man" style="">)
+<img src="Weather App.gif" alt="gif" style="">
 
 ## Description
 
