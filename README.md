@@ -1,6 +1,6 @@
 # Weather Web App
 
-![Weather Web App Screenshot](screenshot.png)
+![Weather Web App Screenshot](<img src="Weather App.gif" alt="Computer man" style="">)
 
 ## Description
 
@@ -38,7 +38,7 @@ This web app is a client-side application and does not require installation. Sim
 - HTML
 - CSS
 - JavaScript
-- [Your Chosen Weather API](https://openweathermap.org/)
+- [Weather API](https://openweathermap.org/)
 
 ## Credits
 
@@ -55,7 +55,7 @@ Contributions are welcome! Feel free to open issues and submit pull requests to 
 
 ## Author
 
-[Your Name](https://github.com/pintu544)
+[Pintu Kumar](https://github.com/pintu544)
 
 ## Acknowledgments
 
