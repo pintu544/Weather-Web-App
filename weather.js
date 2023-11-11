@@ -18,7 +18,7 @@ function getWeather() {
 
     if (city != '') {
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=0f5823b60f56f54161db530643a59b95",
+            url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=0f5823b60f56f54161db530643a59b95",
             type: "GET",
             dataType: "json",
             success: function (data) {
@@ -88,7 +88,7 @@ function getWeather(){
     if(city != ''){
         
         $.ajax({
-           url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=0f5823b60f56f54161db530643a59b95",
+           url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=0f5823b60f56f54161db530643a59b95",
             type: "GET",
             dataType: "jsonp",
             success: function(data){
@@ -141,7 +141,7 @@ function showResults(data) {
     const html = `
         <h2 style="font-weight:bold; font-size:30px; padding-top:20px;" class="text-center">Current Weather for ${data.name}, ${data.sys.country}</h2>
         <h3 style='padding-left:40px;'><strong>Weather</strong>: ${data.weather[0].main}</h3>
-        <h3 style='padding-left:40px;'><strong>Description</strong>:<img src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'> ${data.weather[0].description}</h3>
+        <h3 style='padding-left:40px;'><strong>Description</strong>:<img src='https://openweathermap.org/img/w/${data.weather[0].icon}.png'> ${data.weather[0].description}</h3>
         <h3 style='padding-left:40px;'><strong>Temperature</strong>: <span id='temperature' data-unit='celsius'>${data.main.temp.toFixed(2)} °C</span></h3>
         <h3 style='padding-left:40px;'><strong>Pressure</strong>: ${data.main.pressure} hpa</h3>
         <h3 style='padding-left:40px;'><strong>Humidity</strong>: ${data.main.humidity}%</h3>
